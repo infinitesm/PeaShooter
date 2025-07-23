@@ -1,4 +1,4 @@
-package com.gladurbad.game.util;
+package ai.peashooter.game.util;
 
 import lombok.Getter;
 

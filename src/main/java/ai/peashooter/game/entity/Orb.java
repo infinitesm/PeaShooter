@@ -1,14 +1,13 @@
-package com.gladurbad.game.entity;
+package ai.peashooter.game.entity;
 
-import com.gladurbad.game.loop.GameLoop;
-import com.gladurbad.game.util.Vector;
+import ai.peashooter.game.loop.GameLoop;
+import ai.peashooter.game.util.Vector;
 
 import java.awt.*;
 
 public class Orb extends Entity {
 
     public static final double SPEED = 3;
-    public static final int INERTIA = 2;
 
     private final int creationTick = GameLoop.getInstance().getCurrentTick();
 

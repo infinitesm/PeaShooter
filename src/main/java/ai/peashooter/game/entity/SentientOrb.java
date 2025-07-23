@@ -1,7 +1,7 @@
-package com.gladurbad.game.entity;
+package ai.peashooter.game.entity;
 
-import com.gladurbad.game.GameWindow;
-import com.gladurbad.game.util.Vector;
+import ai.peashooter.game.GameWindow;
+import ai.peashooter.game.util.Vector;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,8 +13,8 @@ public class SentientOrb extends Entity {
         super(position);
     }
 
-    public static final int SPEED = 10;
-    public static final int INERTIA = 2;
+    public static final int SPEED = 4;
+    public static final int INERTIA = 1;
 
     @Setter public int fireTicks = 5;
     @Setter public double inaccuracy = 0.05;
@@ -35,7 +35,7 @@ public class SentientOrb extends Entity {
     @Override
     public void collideWithEntity(Entity entity) {
         if (entity instanceof Orb) {
-            health -= 0.1;
+            health = Math.max(0, health - 0.1);
         }
     }
 

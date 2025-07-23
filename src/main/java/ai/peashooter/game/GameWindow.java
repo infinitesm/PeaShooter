@@ -1,14 +1,14 @@
-package com.gladurbad.game;
+package ai.peashooter.game;
 
-import com.gladurbad.game.loop.GameLoop;
+import ai.peashooter.game.loop.GameLoop;
 
 import javax.swing.*;
 import java.awt.*;
 
 public class GameWindow extends JFrame {
 
-    public static final int HEIGHT = 600;
-    public static final int WIDTH = 600;
+    public static final int HEIGHT = 720;
+    public static final int WIDTH = 1280;
 
     public GameWindow() {
         GameLoop loop = new GameLoop();

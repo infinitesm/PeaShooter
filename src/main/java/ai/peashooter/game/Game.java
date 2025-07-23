@@ -1,4 +1,4 @@
-package com.gladurbad.game;
+package ai.peashooter.game;
 
 public class Game {
     public static void main(String[] args) {

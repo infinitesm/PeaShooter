@@ -1,7 +1,7 @@
-package com.gladurbad.game.entity;
+package ai.peashooter.game.entity;
 
-import com.gladurbad.game.loop.GameLoop;
-import com.gladurbad.game.util.Vector;
+import ai.peashooter.game.loop.GameLoop;
+import ai.peashooter.game.util.Vector;
 import lombok.Getter;
 
 import java.awt.*;

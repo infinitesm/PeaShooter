@@ -1,6 +1,6 @@
-package com.gladurbad.game.entity;
+package ai.peashooter.game.entity;
 
-import com.gladurbad.game.util.Vector;
+import ai.peashooter.game.util.Vector;
 
 import java.awt.*;
 

@@ -1,4 +1,4 @@
-package com.gladurbad.game.keyboard;
+package ai.peashooter.game.keyboard;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;

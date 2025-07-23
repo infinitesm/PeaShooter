@@ -1,15 +1,15 @@
-package com.gladurbad.game.entity;
+package ai.peashooter.game.entity;
 
-import com.gladurbad.game.GameWindow;
-import com.gladurbad.game.loop.GameLoop;
-import com.gladurbad.game.util.Vector;
+import ai.peashooter.game.GameWindow;
+import ai.peashooter.game.loop.GameLoop;
+import ai.peashooter.game.util.Vector;
 import lombok.Getter;
 
 import java.awt.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 @Getter
-public class Bullet extends com.gladurbad.game.entity.Entity {
+public class Bullet extends Entity {
 
     private static final int SPEED = 25;
     public final Vector start, end;
